@@ -1,0 +1,70 @@
+<!-- projects/yourgpt.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YourGPT Project</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>YourGPT Project</h1>
+    <p>Multi-agent AI system with real-time data retrieval and Q&A capabilities</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Project Overview</h2>
+      <p>YourGPT is an advanced AI system that integrates Large Language Models (LLMs), vector databases, and custom user workflows. It allows for:</p>
+      <ul>
+        <li>Real-time Q&A retrieval</li>
+        <li>Document-based knowledge ingestion</li>
+        <li>Multi-agent task delegation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Architecture</h2>
+      <p>Below is the flow diagram showcasing how data and queries move through the system:</p>
+      <!-- Example of embedding your uploaded image -->
+      <img src="../assets/images/yourgpt-diagram.png" alt="YourGPT Architecture Diagram" />
+      <p>This flowchart demonstrates how user queries are processed, relevant documents are retrieved, and responses are generated.</p>
+    </section>
+
+    <section>
+      <h2>Key Technologies</h2>
+      <ul>
+        <li>Python (FastAPI, Streamlit)</li>
+        <li>Azure OpenAI / OpenAI GPT Models</li>
+        <li>Langchain for context-based retrieval</li>
+        <li>Vector DB (ChromaDB) for embeddings</li>
+        <li>Multi-agent orchestration (CrewAI / custom frameworks)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>GitHub Repository</h2>
+      <p>Check out the code on <a href="https://github.com/yourgithub/yourgpt-project" target="_blank">GitHub</a>.</p>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Akanksha. All rights reserved.</p>
+  </footer>
+</body>
+</html>
