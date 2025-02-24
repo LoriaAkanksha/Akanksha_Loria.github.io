@@ -1,194 +1,72 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Akanksha Loria - AI/ML Developer Portfolio</title>
-  <style>
-    /* Basic styles for a clean, modern look */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f7f7f7;
-      line-height: 1.6;
-      color: #333;
-    }
-    header {
-      background: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #444;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px;
-      display: block;
-    }
-    nav ul li a:hover {
-      background: #555;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    h2 {
-      border-bottom: 2px solid #333;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akanksha - AI Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+
   <!-- Header -->
   <header>
-    <h1>Akanksha Loria</h1>
-    <p>AI/ML Developer</p>
+    <h1>Akanksha</h1>
+    <p>AI Developer | Machine Learning & Generative AI Specialist</p>
   </header>
-  
-  <!-- Navigation Bar -->
+
+  <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications & Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  
-  <!-- Main Content Container -->
+
+  <!-- Main Content -->
   <div class="container">
-    
-    <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am a versatile AI/ML Developer with a strong foundation in data science and proficiency in Generative AI, AI Agents, LLM, RAG, Python, R, Power BI, SQL, and more. My expertise spans advanced machine learning, deep learning, computer vision, and natural language processing. I have contributed to innovative projects like no-code chatbot solutions using LlamaIndex and OpenAI technologies, and I am passionate about building impactful, user-centric solutions.</p>
+    <!-- Introduction Section -->
+    <section>
+      <h2>Welcome</h2>
+      <p>Hello! I'm Akanksha, an AI Developer with expertise in Machine Learning, Deep Learning, and Generative AI. Explore my projects below!</p>
     </section>
-    
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Programming Languages:</strong> Python, R</li>
-        <li><strong>Machine Learning & AI:</strong> Machine Learning, Deep Learning, NLP, Computer Vision, GANs, LLMs</li>
-        <li><strong>Data Manipulation & Analysis:</strong> Pandas, NumPy, Matplotlib, Scikit-learn</li>
-        <li><strong>AI Frameworks & Tools:</strong> Hugging Face, OpenAI, CrewAI, Langchain, LlamaIndex, Flask, FastAPI</li>
-        <li><strong>Data Visualization:</strong> Power BI, Streamlit, Tableau, Microsoft Power Platforms</li>
-        <li><strong>Databases:</strong> MySQL, MongoDB, Qdrant, Faiss DB, CromaDB, Neo4j</li>
-      </ul>
-    </section>
-    
-    <!-- Experience Section -->
-    <section id="experience">
-      <h2>Experience</h2>
-      
-      <h3>AI/ML Developer - Delta4 Infotech Pvt. Ltd. <em>(Nov '24 — Present)</em></h3>
-      <ul>
-        <li>Built intelligent systems using LlamaIndex, vector databases (e.g., Qdrant), and OpenAI technologies.</li>
-        <li>Project: <a href="https://yourgpt.ai/" target="_blank">YourGPT</a> – a no-code chatbot builder supporting 100+ languages.</li>
-        <li>Designed advanced query pipelines with recursive retrievers, rerankers, and sub-query decomposition.</li>
-        <li>Explored graph database solutions like Neo4j and optimized embedding strategies for multitenancy.</li>
-      </ul>
-      
-      <h3>SDE-I (Data Science) - InfoStride Technologies Pvt. Ltd. <em>(Oct '23 — Oct '24)</em></h3>
-      <ul>
-        <li>Built and deployed machine learning models and interactive web applications using Langchain and Streamlit.</li>
-        <li>Fine-tuned large language models using PEFT methods and implemented retrieval augmented generation (RAG).</li>
-        <li>Projects include: Resume AI-Bot, Image Story Generator, Chat with PDFs, Conversational Chatbot, and YouTube Transcript to Notes Converter.</li>
-      </ul>
-      
-      <h3>Data Science Intern/Analyst - Hashbrown Systems Pvt. Ltd. <em>(Jun '23 — Sep '23)</em></h3>
-      <ul>
-        <li>Performed data mining, cleaning, analysis, and visualization for the Meradesh.org Portal.</li>
-        <li>Interpreted patterns and trends in complex datasets to derive actionable insights.</li>
-      </ul>
-    </section>
-    
+
     <!-- Projects Section -->
     <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>YourGPT:</strong> A no-code chatbot builder. <a href="https://yourgpt.ai/" target="_blank">Visit Website</a></li>
-        <li><strong>Resume AI-Bot:</strong> An AI-driven resume parsing and analysis tool. <a href="https://github.com/LoriaAkanksha/RAG-LLM" target="_blank">GitHub Repo</a></li>
-        <li><strong>Image Story Generator:</strong> Generates narratives from images. <a href="https://github.com/LoriaAkanksha/GeminiProLLM/blob/main/Image_to_text_GeminiProVision.py" target="_blank">View Code</a></li>
-        <li><strong>Chat with PDFs:</strong> Enables interactive conversations with PDF content. <a href="https://github.com/LoriaAkanksha/GeminiProLLM/blob/main/Chat_with_PDFs_GeminiPro.py" target="_blank">View Code</a></li>
-        <li><strong>Conversational Chatbot:</strong> A tool for dynamic conversational AI. <a href="https://github.com/LoriaAkanksha/GeminiProLLM/blob/main/Conversational_Chatbot_GeminiPro.py" target="_blank">View Code</a></li>
-        <li><strong>YouTube Transcript to Notes Converter:</strong> Converts YouTube transcripts into summarized notes. <a href="https://github.com/LoriaAkanksha/GeminiProLLM/blob/main/Youtube_transcribe_geminipro.py" target="_blank">View Code</a></li>
-        <li><strong>Meradesh.org Portal:</strong> A data mining and visualization project. <a href="https://meradesh.org/" target="_blank">Visit Website</a></li>
-      </ul>
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+        <h3>YourGPT Project</h3>
+        <p>An advanced multi-agent AI system with real-time data retrieval and Q&A capabilities.</p>
+        <a href="projects/yourgpt.html" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Conversational Chatbot</h3>
+        <p>Interactive chatbot built with Streamlit and Generative AI.</p>
+        <a href="projects/conversational-chatbot.html" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Resume AI-Bot</h3>
+        <p>An AI-powered bot that matches resumes with job descriptions using embeddings and ANN.</p>
+        <a href="projects/resume-ai-bot.html" class="btn">View Project</a>
+      </div>
     </section>
-    
-    <!-- Certifications & Education Section -->
-    <section id="certifications">
-      <h2>Certifications & Education</h2>
-      <ul>
-        <li><strong>Bachelor of Science in Mathematics</strong> - Himachal Pradesh University</li>
-        <li>Practical Multi AI Agents and Advanced Use Cases (CrewAI)</li>
-        <li>Generative Adversarial Networks (GANs) Certificate Course (Coursera)</li>
-        <li>Machine Learning with Python (IBM Skills Network)</li>
-        <li>Data Analysis using Python (IBM Skills Network)</li>
-        <li>Google Data Analytics Professional Certificate (Coursera)</li>
-        <li>Microsoft Power Platform Fundamentals (Microsoft)</li>
-        <li>Advanced Diploma in Computer Applications (Sarva I.T)</li>
-      </ul>
-    </section>
-    
+
     <!-- Contact Section -->
     <section id="contact">
       <h2>Contact</h2>
-      <p><strong>Email:</strong> <a href="mailto:akankshaloria2110@gmail.com">akankshaloria2110@gmail.com</a></p>
-      <p><strong>Phone:</strong> +916230488661</p>
-      <p>
-        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/akanksha-loria-734335242" target="_blank">Visit Profile</a><br>
-        <strong>GitHub:</strong> <a href="https://github.com/LoriaAkanksha" target="_blank">Visit Profile</a>
-      </p>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+      <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">Your GitHub</a></p>
     </section>
-    
   </div>
-  
+
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Akanksha Loria. All Rights Reserved.</p>
+    <p>&copy; 2025 Akanksha. All rights reserved.</p>
   </footer>
 </body>
 </html>
